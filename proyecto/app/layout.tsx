@@ -1,7 +1,10 @@
-import type { Metadata } from "next";
+import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Proyecto Pro",
+  title: {
+    default: "Proyecto de Samuelito",
+    template: "%s | Proyecto Samuel",
+  },
   description: "Dev by Samuel Franco",
 };
 
